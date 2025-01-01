@@ -9,5 +9,5 @@ reporting_task:
   description: >
     Just write the result of {language_mode} translated sentence.
   expected_output: >
-    A fine and clear translated sentence of specified {language_mode} language. Also include the language mode.
+    A fine and clear translated sentence of specified {language_mode} language. Also include the topic along with the content provided as input and language mode.
   agent: reporting_analyst
