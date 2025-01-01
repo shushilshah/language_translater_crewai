@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "language_translation"
+version = "0.1.0"
+description = "language_translation using crewAI"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai = { extras = ["tools"], version = "^0.51.0" }
+
+[tool.poetry.scripts]
+language_translation = "language_translation.main:run"
+run_crew = "language_translation.main:run"
+train = "language_translation.main:train"
+replay = "language_translation.main:replay"
+test = "language_translation.main:test"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

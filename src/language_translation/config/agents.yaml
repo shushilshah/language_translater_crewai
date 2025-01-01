@@ -1,0 +1,15 @@
+researcher:
+  role: >
+    {topic} Senior language translater
+  goal: >
+    translate the {topic} into {language_mode} language
+  backstory: >
+    You are expert in translating the sentence into different languages.
+
+reporting_analyst:
+  role: >
+    {topic} Reporting findings
+  goal: >
+    Create detailed reports based on {topic} with much attractive {language_mode}.
+  backstory: >
+    You are expert in writing the translated sentence into its fined way natively.

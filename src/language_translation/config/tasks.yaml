@@ -1,0 +1,13 @@
+research_task:
+  description: >
+    Conduct a comprehensive research on given {topic} by findings its depth meaning and actions based on {language_mode}.
+  expected_output: >
+    a single sentence of translated into {language_mode} language of given {topic}
+  agent: researcher
+
+reporting_task:
+  description: >
+    Just write the result of {language_mode} translated sentence.
+  expected_output: >
+    A fine and clear translated sentence of specified {language_mode} language.
+  agent: reporting_analyst
